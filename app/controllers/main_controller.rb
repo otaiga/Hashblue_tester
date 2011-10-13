@@ -7,6 +7,7 @@ class MainController < ApplicationController
   
   CLIENT_ID = ENV['CLIENT_ID']
   CLIENT_SECRET = ENV['CLIENT_SECRET']
+  MSISDN = ENV['MY_MSISDN']
   
   AUTH_SERVER = "https://hashblue.com"
   API_SERVER = "https://api.hashblue.com"
@@ -57,7 +58,7 @@ class MainController < ApplicationController
   def run
     
     @message = "Test messge"
-     HashBlue::Message.create!("447715202085", @message)
+     HashBlue::Message.create!(MSISDN, @message)
      puts "message sent"
       
   end
