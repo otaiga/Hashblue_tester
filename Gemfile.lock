@@ -1,9 +1,10 @@
 GIT
   remote: git://github.com/juandebravo/hash-blue.git
-  revision: 9858099bd3228097aa70db795dc60d2821f357db
+  revision: 22439b0fc7b20306ec75e178634d333cd6aa919f
   specs:
-    hash-blue (0.2)
+    hash-blue (0.2.1)
       json_pure (>= 1.4.3)
+      oauth
 
 GEM
   remote: http://rubygems.org/
@@ -53,6 +54,7 @@ GEM
     mime-types (1.16)
     multi_json (1.0.3)
     multi_xml (0.4.1)
+    oauth (0.4.5)
     polyglot (0.3.2)
     rack (1.2.4)
     rack-mount (0.6.14)
