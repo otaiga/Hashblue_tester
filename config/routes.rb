@@ -9,6 +9,7 @@ HashblueTester::Application.routes.draw do
   
   match '/callback', :to => "main#callback"
   match '/run', :to => "main#run"
+  match '/auth', :to => "main#auth"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
