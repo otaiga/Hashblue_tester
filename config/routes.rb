@@ -8,7 +8,7 @@ HashblueTester::Application.routes.draw do
   get "main/run"
   
   match '/callback', :to => "main#callback"
-  match '/run', :to => "main#run"
+  match '/tr94dmkfrp32cmorew4432d', :to => "main#tr94dmkfrp32cmorew4432d"
   match '/auth', :to => "main#auth"
 
   # The priority is based upon order of creation:
